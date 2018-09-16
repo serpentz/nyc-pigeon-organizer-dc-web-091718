@@ -16,7 +16,7 @@ def nyc_pigeon_organizer(data)
       puts return_hash
 end
 
-nyc_pigeon_organizer(:color => {
+nyc_pigeon_organizer({:color => {
   :purple => ["Theo", "Peter Jr.", "Lucky"],
   :grey => ["Theo", "Peter Jr.", "Ms. K"],
   :white => ["Queenie", "Andrew", "Ms. K", "Alex"],
@@ -32,4 +32,4 @@ nyc_pigeon_organizer(:color => {
   "Library" => ["Peter Jr."],
   "City Hall" => ["Andrew"]
 }
-})
+}})
